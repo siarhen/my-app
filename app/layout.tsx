@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" prefix="og: https://qweqweqweqweq12312.netlify.app/#">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
