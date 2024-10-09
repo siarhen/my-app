@@ -13,8 +13,10 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: { default: 'metadata devreality test title' },
-  description: 'metadata devreality test desctiption',
+  title: { default: 'metadata 123 test title' },
+  description: 'metadata 123 test desctiption',
+  sitename: '123',
+  type: 'website',
   robots: {
       index: true,
       follow: true,
@@ -23,20 +25,27 @@ export const metadata = {
       icon: 'https://cdn.devreality.ru/assets/icon_DevReality.png',
   },
   openGraph: {
-      title: 'metadata devreality test title',
-      description: 'metadata devreality test desctiption',
+      title: 'metadata 123 test title',
+      description: 'metadata 123 test desctiption',
       url: '123',
-      siteName: 'devreality',
+      siteName: '123',
       images: [
           {
               url: 'https://cdn.devreality.ru/assets/logo_DevReality_black.png',
               alt: 'image alt',
-              width: 1048,
-              height: 1048,
           },
       ],
       type: 'website',
       manifest: `aa/manifest.json`,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Generate Dynamic Open Graph and Twitter Images in Next.js",
+    description:
+      "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
+    images: [
+      "https://cdn.devreality.ru/assets/logo_DevReality_black.png",
+    ],
   },
   other: {
       'yandex-verification': 'f07ec417a245b1c3',
