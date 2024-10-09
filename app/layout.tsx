@@ -31,6 +31,8 @@ export const metadata = {
           {
               url: 'https://cdn.devreality.ru/assets/logo_DevReality_black.png',
               alt: 'image alt',
+              width: 1048,
+              height: 1048,
           },
       ],
       type: 'website',
