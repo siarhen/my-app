@@ -45,10 +45,10 @@ export const metadata = {
     description:
       "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
     images: [
-      "https://cdn.devreality.ru/assets/466.jpg",
+      "https://cdn.devreality.ru/assets/logo_DevReality_black.png",
     ],
   },
-  other: {
+  other: { 
       'yandex-verification': 'f07ec417a245b1c3',
   },
 };
