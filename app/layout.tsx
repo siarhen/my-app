@@ -32,7 +32,7 @@ export const metadata = {
       siteName: '123',
       images: [
           {
-              url: 'https://cdn.devreality.ru/assets/logo_DevReality_black.png',
+              url: 'https://cdn.devreality.ru/assets/466.jpg',
               alt: 'image alt',
           },
       ],
@@ -45,7 +45,7 @@ export const metadata = {
     description:
       "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
     images: [
-      "https://cdn.devreality.ru/assets/logo_DevReality_black.png",
+      "https://cdn.devreality.ru/assets/466.jpg",
     ],
   },
   other: {
