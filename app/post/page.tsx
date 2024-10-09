@@ -13,8 +13,18 @@ export async function generateMetadata(
         openGraph: {
             title: 'ARTICLLLE',
             description: 'description of that article',
-            images: ['https://cdn.devreality.ru/assets/logo_DevReality_black.png']
+            images: ['https://cdn.devreality.ru/assets/466.jpg', ...previousImages]
+
         },
+        twitter: {
+            card: "summary_large_image",
+            title: "Generate Dynamic Open Graph and Twitter Images in Next.js",
+            description:
+              "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
+            images: [
+              "https://cdn.devreality.ru/assets/466.jpg",
+            ],
+          },
     };
 }
 
