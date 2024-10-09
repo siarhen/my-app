@@ -18,9 +18,9 @@ export async function generateMetadata(
         },
         twitter: {
             card: "summary_large_image",
-            title: "Generate Dynamic Open Graph and Twitter Images in Next.js",
+            title: "ARTICLLLE",
             description:
-              "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
+              "description of that article",
             images: [
               "https://cdn.devreality.ru/assets/466.jpg",
             ],
