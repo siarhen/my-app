@@ -13,7 +13,7 @@ export async function generateMetadata(
         openGraph: {
             title: 'ARTICLLLE',
             description: 'description of that article',
-            images: ['https://devreality.ru/article/davankovspasi/', ...previousImages]
+            images: ['https://devreality.ru/article/davankovspasi/']
         },
     };
 }
