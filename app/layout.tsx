@@ -12,14 +12,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Website',
-  name: '123',
-  image: 'https://cdn.devreality.ru/assets/logo_DevReality_black.png',
-  description: '123 description',
-}
-
 
 export const metadata = {
   title: { default: 'metadata 123 test title' },
@@ -68,10 +60,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
