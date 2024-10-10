@@ -32,7 +32,7 @@ export const metadata = {
       siteName: '123',
       images: [
           {
-              url: 'https://cdn.devreality.ru/assets/logo_DevReality_black.png',
+              url: 'https://previews.dropbox.com/p/thumb/ACYtyuDgTSBeQe2LfIvsESd1H9w-K9IkezYmohI1su4P-uJhgbuMiudGkfjAUhj98RlPysGaGvaPQdCz46Ge0XmnYUJxVJnePcMQTFMbodVFkP4nMTIDRgJLyXjcPi0Z7iiM4mNd8oDiPw7WKAGuiD28PmXHM7_WZbHcQ5bYQ-WSm4YAD4E-x6nFJpE2Iv0ogaJSQ9ci5u1RVZYZbPYw8jzld67IgejBVjMCCxq6XwNgHYJbISfLlBv4rfGtJ5hbfUBku3UZlP1Wd456a4pnG6MqpzhRd25qjK2u-yNEmDadvrm2mhhRAoBN1KwhODwG_eTYf8_GBKfpx_VidTXQlHXN/p.png',
               alt: 'image alt',
           },
       ],
@@ -45,7 +45,7 @@ export const metadata = {
     description:
       "A guide on how to optimize SEO with static and dynamic metatags using Next.js 13's new Metadata API.",
     images: [
-      "https://cdn.devreality.ru/assets/logo_DevReality_black.png",
+      "https://previews.dropbox.com/p/thumb/ACYtyuDgTSBeQe2LfIvsESd1H9w-K9IkezYmohI1su4P-uJhgbuMiudGkfjAUhj98RlPysGaGvaPQdCz46Ge0XmnYUJxVJnePcMQTFMbodVFkP4nMTIDRgJLyXjcPi0Z7iiM4mNd8oDiPw7WKAGuiD28PmXHM7_WZbHcQ5bYQ-WSm4YAD4E-x6nFJpE2Iv0ogaJSQ9ci5u1RVZYZbPYw8jzld67IgejBVjMCCxq6XwNgHYJbISfLlBv4rfGtJ5hbfUBku3UZlP1Wd456a4pnG6MqpzhRd25qjK2u-yNEmDadvrm2mhhRAoBN1KwhODwG_eTYf8_GBKfpx_VidTXQlHXN/p.png",
     ],
   },
   other: { 
